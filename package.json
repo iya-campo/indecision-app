@@ -8,9 +8,8 @@
     "node": "12.16.3"
   },
   "scripts": {
-    "serve": "live-server public/",
-    "build": "webpack",
-    "dev": "webpack-dev-server",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
     "start": "node server/server.js yarn run dev",
     "heroku-postbuild": "yarn run build:prod"
   },
