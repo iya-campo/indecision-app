@@ -1,0 +1,45 @@
+body {
+  background-color: #ccc;
+}
+
+input {
+  padding: 10px;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+button.submit-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.happy-dog {
+  border-radius: 10px;
+}
+
+.happy-msg {
+  transition: all 0.25s ease-in-out;
+  overflow: hidden;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+.options-list .list-group-item {
+  border-radius: 0.25rem;
+}
+
+.remove-btn {
+  font-size: 24px;
+  padding: 0 0 0 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.remove-btn:hover {
+  color: #dc3545;
+}

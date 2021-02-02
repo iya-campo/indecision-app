@@ -1,0 +1,46 @@
+// Big Button
+.big-btn {
+  color: #fff;
+  background: $purple !important;
+  border: none;
+  border-bottom: 0.6rem solid darken($purple, 10%) !important;
+  border-radius: 0.25rem !important;
+  font-size: 2.5rem !important;
+  font-weight: 700;
+  margin-bottom: $m-size !important;
+  opacity: 1;
+  padding: 2.4rem;
+  transition: all 0.15s ease-in-out;
+  width: 100%;
+}
+
+.big-btn:disabled {
+  opacity: 0.5;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .big-btn {
+    margin-bottom: $xl-size !important;
+    font-size: $l-size !important;
+  }
+}
+
+// Button
+.btn {
+  background: $purple !important;
+  border: none !important;
+  border-bottom: 0.3rem solid darken($purple, 10%) !important;
+  border-radius: 0.25rem !important;
+  color: #fff !important;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: $m-size !important;
+  font-weight: 500 !important;
+  padding: $s-size;
+}
+
+.btn--link {
+  background: none !important;
+  border: none !important;
+  color: $off-white !important;
+  padding: 0 !important;
+}

@@ -1,0 +1,17 @@
+.option li {
+  list-style-type: none;
+}
+
+.option {
+  border-bottom: 2px solid lighten($color: $light-blue, $amount: 5%);
+  display: flex;
+  justify-content: space-between;
+  padding: $l-size $m-size;
+}
+
+.option__text {
+  color: #fff;
+  font-size: $m-size;
+  margin: 0;
+  word-break: break-word;
+}
